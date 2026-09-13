@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Khodiyar Mandap Service creates elegant wedding mandaps, floral decorations, entrances, stages, canopies and beautiful event setups. Premium Indian wedding & event decoration company.">
+    <meta property="og:title" content="Khodiyar Mandap Service | Wedding & Event Decoration">
+    <meta property="og:description" content="Creating elegant wedding spaces, unforgettable entrances and beautiful celebrations crafted around your special moments.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rajmakwana1577-byte.github.io/KHODIYAR-MANDAP-SERVICE/">
+    <meta name="theme-color" content="#3d1429">
+    
+    <title>Khodiyar Mandap Service | Wedding & Event Decoration</title>
+    
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <img src="assets/logo/khodiyar-logo.png" alt="Khodiyar Mandap Service Logo" class="logo-img">
+                <span class="logo-text">KHODIYAR MANDAP</span>
+            </div>
+            
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#services" class="nav-link">SERVICES</a></li>
+                <li><a href="#gallery" class="nav-link">GALLERY</a></li>
+                <li><a href="#experiences" class="nav-link">EXPERIENCES</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+            
+            <button class="cta-btn" onclick="scrollToContact()">GET A QUOTE</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <img src="assets/images/hero-wedding-mandap.jpg" alt="Premium Wedding Mandap Decoration" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text-wrapper">
+                <h1 class="hero-title">
+                    <span class="hero-line">KHODIYAR</span>
+                    <span class="hero-line">MANDAP SERVICE</span>
+                </h1>
+                
+                <p class="hero-tagline">YOUR OCCASION,<br>OUR CELEBRATION</p>
+                
+                <p class="hero-description">
+                    Creating elegant wedding spaces, unforgettable entrances and beautiful celebrations crafted around your special moments.
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToGallery()">EXPLORE OUR WORK</button>
+                    <button class="btn btn-secondary" onclick="scrollToContact()">GET A QUOTE</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">
+                        WE CREATE THE SETTING
+                        <br>FOR YOUR MEMORABLE MOMENTS.
+                    </h2>
+                    
+                    <p class="about-description">
+                        At Khodiyar Mandap Service, we believe that every celebration deserves a setting as unique and beautiful as the moments being celebrated. With years of expertise in wedding and event decoration, we specialize in transforming venues into stunning, personalized celebration spaces.
+                    </p>
+                    
+                    <p class="about-description">
+                        From intricately designed wedding mandaps to grand floral entrances, elegant stage setups, and sophisticated reception spaces, we bring your vision to life with meticulous attention to detail and a commitment to excellence. Whether it's a traditional ceremony or a contemporary celebration, our team crafts decoration concepts that reflect your style and create lasting memories.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">✦</span>
+                            <span>Wedding Mandaps</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✦</span>
+                            <span>Floral Arrangements</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✦</span>
+                            <span>Wedding Entrances</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✦</span>
+                            <span>Fabric & Canopy Décor</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✦</span>
+                            <span>Stage Decoration</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✦</span>
+                            <span>Reception Setups</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="assets/images/about-decoration.jpg" alt="Premium Wedding Decoration Setup" class="about-img" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-container">
+            <h2 class="section-title">OUR SERVICES</h2>
+            <p class="section-subtitle">Comprehensive decoration solutions for every celebration</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon mandap-icon">♦</div>
+                    <h3>WEDDING MANDAPS</h3>
+                    <p>Beautifully designed mandap setups tailored to create the perfect ceremonial setting for your wedding.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon entrance-icon">♦</div>
+                    <h3>WEDDING ENTRANCES</h3>
+                    <p>Grand floral and fabric entrances that create the perfect first impression and set the tone for celebration.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon floral-icon">♦</div>
+                    <h3>FLORAL DECORATION</h3>
+                    <p>Elegant floral arrangements, arches and decorative installations that bring natural beauty to your venue.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon stage-icon">♦</div>
+                    <h3>STAGE DECORATION</h3>
+                    <p>Beautiful stage environments designed for ceremonies, photographs and creating focal points for your celebration.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon canopy-icon">♦</div>
+                    <h3>FABRIC & CANOPY DÉCOR</h3>
+                    <p>Creative ceiling, canopy and fabric installations that transform spaces with elegance and sophistication.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon reception-icon">♦</div>
+                    <h3>RECEPTION DÉCOR</h3>
+                    <p>Sophisticated reception spaces with premium styling that create an elegant atmosphere for your guests.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon events-icon">♦</div>
+                    <h3>SPECIAL EVENTS</h3>
+                    <p>Elegant decoration concepts for engagements, celebrations and special occasions with personalized touch.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon custom-icon">♦</div>
+                    <h3>CUSTOM DECORATION</h3>
+                    <p>Fully customized concepts based on venue, theme and client preference for truly unique celebrations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Collection Section -->
+    <section class="signature-collection">
+        <div class="section-container">
+            <h2 class="section-title">SIGNATURE COLLECTIONS</h2>
+            <p class="section-subtitle">Explore our distinctive decoration styles</p>
+            
+            <div class="collection-grid">
+                <div class="collection-card" style="background-image: url('assets/images/collection-royal.jpg')">
+                    <div class="collection-overlay"></div>
+                    <div class="collection-content">
+                        <h3>ROYAL</h3>
+                        <p>Grand, elegant and majestic</p>
+                    </div>
+                </div>
+                
+                <div class="collection-card" style="background-image: url('assets/images/collection-floral.jpg')">
+                    <div class="collection-overlay"></div>
+                    <div class="collection-content">
+                        <h3>FLORAL</h3>
+                        <p>Nature-inspired elegance</p>
+                    </div>
+                </div>
+                
+                <div class="collection-card" style="background-image: url('assets/images/collection-classic.jpg')">
+                    <div class="collection-overlay"></div>
+                    <div class="collection-content">
+                        <h3>CLASSIC</h3>
+                        <p>Timeless and sophisticated</p>
+                    </div>
+                </div>
+                
+                <div class="collection-card" style="background-image: url('assets/images/collection-contemporary.jpg')">
+                    <div class="collection-overlay"></div>
+                    <div class="collection-content">
+                        <h3>CONTEMPORARY</h3>
+                        <p>Modern and minimalist</p>
+                    </div>
+                </div>
+                
+                <div class="collection-card" style="background-image: url('assets/images/collection-traditional.jpg')">
+                    <div class="collection-overlay"></div>
+                    <div class="collection-content">
+                        <h3>TRADITIONAL</h3>
+                        <p>Cultural richness redefined</p>
+                    </div>
+                </div>
+                
+                <div class="collection-card" style="background-image: url('assets/images/collection-luxury.jpg')">
+                    <div class="collection-overlay"></div>
+                    <div class="collection-content">
+                        <h3>LUXURY</h3>
+                        <p>Premium and opulent</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="section-container">
+            <h2 class="section-title">FEATURED GALLERY</h2>
+            <p class="section-subtitle">A glimpse into our most elegant creations</p>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">ALL</button>
+                <button class="filter-btn" data-filter="mandaps">MANDAPS</button>
+                <button class="filter-btn" data-filter="entrances">ENTRANCES</button>
+                <button class="filter-btn" data-filter="floral">FLORAL</button>
+                <button class="filter-btn" data-filter="stages">STAGES</button>
+                <button class="filter-btn" data-filter="canopy">CANOPY</button>
+                <button class="filter-btn" data-filter="weddings">WEDDINGS</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="mandaps">
+                    <img src="assets/images/gallery-mandap-1.jpg" alt="Elegant Wedding Mandap" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Mandap</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="entrances">
+                    <img src="assets/images/gallery-entrance-1.jpg" alt="Wedding Entrance Decoration" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Entrance</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="floral">
+                    <img src="assets/images/gallery-floral-1.jpg" alt="Floral Decoration" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Floral</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="stages">
+                    <img src="assets/images/gallery-stage-1.jpg" alt="Wedding Stage Setup" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Stage</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="canopy">
+                    <img src="assets/images/gallery-canopy-1.jpg" alt="Fabric Canopy Decoration" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Canopy</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="weddings">
+                    <img src="assets/images/gallery-wedding-1.jpg" alt="Complete Wedding Setup" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Wedding</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="mandaps">
+                    <img src="assets/images/gallery-mandap-2.jpg" alt="Royal Mandap Setup" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Mandap</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="entrances">
+                    <img src="assets/images/gallery-entrance-2.jpg" alt="Floral Grand Entrance" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Entrance</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="floral">
+                    <img src="assets/images/gallery-floral-2.jpg" alt="Floral Arch Installation" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Floral</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wedding Experiences Section -->
+    <section class="experiences" id="experiences">
+        <div class="section-container">
+            <h2 class="section-title">EVERY CELEBRATION<br>DESERVES ITS OWN SIGNATURE.</h2>
+            <p class="section-subtitle">Curated decoration experiences for your special moments</p>
+            
+            <div class="experiences-grid">
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="assets/images/experience-royal.jpg" alt="Royal Wedding Celebration">
+                    </div>
+                    <div class="experience-content">
+                        <h3>ROYAL WEDDINGS</h3>
+                        <p>Elegant and grand setups that celebrate your wedding with regal sophistication and timeless beauty.</p>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="assets/images/experience-intimate.jpg" alt="Intimate Celebration">
+                    </div>
+                    <div class="experience-content">
+                        <h3>INTIMATE CELEBRATIONS</h3>
+                        <p>Beautiful decoration for smaller gatherings that create meaningful, personal and warm atmospheres.</p>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="assets/images/experience-traditional.jpg" alt="Traditional Ceremony">
+                    </div>
+                    <div class="experience-content">
+                        <h3>TRADITIONAL CEREMONIES</h3>
+                        <p>Indian-inspired decoration with modern finish, honoring traditions while celebrating contemporary elegance.</p>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="assets/images/experience-contemporary.jpg" alt="Contemporary Event">
+                    </div>
+                    <div class="experience-content">
+                        <h3>CONTEMPORARY EVENTS</h3>
+                        <p>Modern styling with clean structures and sophisticated décor for the contemporary celebration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="section-container">
+            <h2 class="section-title">WHY CHOOSE US</h2>
+            <p class="section-subtitle">What sets Khodiyar Mandap Service apart</p>
+            
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <div class="reason-icon">◆</div>
+                    <h3>CREATIVE DESIGN</h3>
+                    <p>Thoughtful decoration concepts tailored to every occasion with artistic vision and attention to aesthetics.</p>
+                </div>
+                
+                <div class="reason-card">
+                    <div class="reason-icon">◆</div>
+                    <h3>ATTENTION TO DETAIL</h3>
+                    <p>Every element is carefully placed, finished and positioned for a polished, cohesive final presentation.</p>
+                </div>
+                
+                <div class="reason-card">
+                    <div class="reason-icon">◆</div>
+                    <h3>CUSTOMIZED CONCEPTS</h3>
+                    <p>Decoration designed around your unique vision, venue characteristics and personal preferences.</p>
+                </div>
+                
+                <div class="reason-card">
+                    <div class="reason-icon">◆</div>
+                    <h3>QUALITY EXECUTION</h3>
+                    <p>Professional setup with meticulous attention to presentation, structure and aesthetic delivery.</p>
+                </div>
+                
+                <div class="reason-card">
+                    <div class="reason-icon">◆</div>
+                    <h3>ELEGANT FINISH</h3>
+                    <p>A refined, polished look from entrance to stage, creating a consistently beautiful celebration space.</p>
+                </div>
+                
+                <div class="reason-card">
+                    <div class="reason-icon">◆</div>
+                    <h3>MEMORABLE EXPERIENCES</h3>
+                    <p>Because decoration should become part of the memory, we create settings worth remembering forever.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Process Section -->
+    <section class="our-process">
+        <div class="section-container">
+            <h2 class="section-title">OUR PROCESS</h2>
+            <p class="section-subtitle">From vision to celebration in five elegant steps</p>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>DISCOVER</h3>
+                        <p>Understand the occasion, venue, vision and your unique preferences. We listen and learn.</p>
+                    </div>
+                </div>
+                
+                <div class="process-connector"></div>
+                
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>DESIGN</h3>
+                        <p>Develop the decoration concept that reflects your style and brings your vision to life.</p>
+                    </div>
+                </div>
+                
+                <div class="process-connector"></div>
+                
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>PLAN</h3>
+                        <p>Finalize layout, flowers, fabrics, lighting, details and every element of the setup.</p>
+                    </div>
+                </div>
+                
+                <div class="process-connector"></div>
+                
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>CREATE</h3>
+                        <p>Transform the venue with precision, care and professional execution of every detail.</p>
+                    </div>
+                </div>
+                
+                <div class="process-connector"></div>
+                
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h3>CELEBRATE</h3>
+                        <p>Deliver a beautiful celebration experience that becomes cherished memories for years to come.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Categories Section -->
+    <section class="event-categories">
+        <div class="section-container">
+            <h2 class="section-title">EVENT CATEGORIES</h2>
+            <p class="section-subtitle">Decoration excellence across all celebration types</p>
+            
+            <div class="categories-grid">
+                <div class="category-item">WEDDINGS</div>
+                <div class="category-item">ENGAGEMENTS</div>
+                <div class="category-item">RECEPTIONS</div>
+                <div class="category-item">MEHENDI</div>
+                <div class="category-item">HALDI</div>
+                <div class="category-item">SANGEET</div>
+                <div class="category-item">BABY FUNCTIONS</div>
+                <div class="category-item">BIRTHDAY CELEBRATIONS</div>
+                <div class="category-item">CORPORATE & SPECIAL EVENTS</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>LET'S CREATE<br>SOMETHING BEAUTIFUL.</h2>
+            <p>Tell us about your celebration and let us design a setting worth remembering.</p>
+            
+            <div class="cta-buttons">
+                <button class="btn btn-light" onclick="scrollToContact()">PLAN YOUR EVENT</button>
+                <button class="btn btn-outline-light" onclick="scrollToContact()">CONTACT US</button>
+            </div>
+        </div>
+        
+        <div class="decorative-elements">
+            <div class="element element-1"></div>
+            <div class="element element-2"></div>
+            <div class="element element-3"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <h2 class="section-title">YOUR OCCASION.<br>OUR CELEBRATION.</h2>
+            
+            <div class="contact-wrapper">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Full Name" required>
+                            <label for="name">Full Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Phone Number" required>
+                            <label for="phone">Phone Number</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="eventType" required>
+                                <option value="">Select Event Type</option>
+                                <option value="wedding">Wedding</option>
+                                <option value="engagement">Engagement</option>
+                                <option value="reception">Reception</option>
+                                <option value="mehendi">Mehendi</option>
+                                <option value="haldi">Haldi</option>
+                                <option value="sangeet">Sangeet</option>
+                                <option value="baby">Baby Function</option>
+                                <option value="birthday">Birthday Celebration</option>
+                                <option value="corporate">Corporate Event</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="eventType">Event Type</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="date" id="eventDate" required>
+                            <label for="eventDate">Event Date</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="venue" placeholder="Venue / Location" required>
+                            <label for="venue">Venue / Location</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Tell us about your celebration..." rows="4"></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">REQUEST A QUOTE</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-branding">
+                        <img src="assets/logo/khodiyar-logo.png" alt="Khodiyar Mandap Service Logo" class="contact-logo">
+                        <h3>KHODIYAR MANDAP SERVICE</h3>
+                        <p class="contact-tagline">YOUR OCCASION, OUR CELEBRATION</p>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">PHONE</span>
+                            <p>[Your Phone Number]</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-label">WHATSAPP</span>
+                            <p>[Your WhatsApp Number]</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-label">EMAIL</span>
+                            <p>[Your Email Address]</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-label">ADDRESS</span>
+                            <p>[Your Business Address]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <span class="social-label">FOLLOW US</span>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Instagram" class="social-icon">f</a>
+                            <a href="#" aria-label="Facebook" class="social-icon">g</a>
+                            <a href="#" aria-label="YouTube" class="social-icon">t</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="assets/logo/khodiyar-logo.png" alt="Khodiyar Logo" class="footer-logo">
+                <p class="footer-business-name">KHODIYAR MANDAP SERVICE</p>
+                <p class="footer-tagline">YOUR OCCASION, OUR CELEBRATION</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>SERVICES</h4>
+                <ul>
+                    <li><a href="#services">Wedding Mandaps</a></li>
+                    <li><a href="#services">Wedding Entrances</a></li>
+                    <li><a href="#services">Floral Decoration</a></li>
+                    <li><a href="#services">Stage Decoration</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+                <p>[Your Phone Number]</p>
+                <p>[Your Email]</p>
+            </div>
+        </div>
+        
+        <div class="footer-divider"></div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 KHODIYAR MANDAP SERVICE. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Gallery -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-image" id="lightboxImage" src="" alt="">
+        <span class="lightbox-prev" onclick="previousImage()">&#10094;</span>
+        <span class="lightbox-next" onclick="nextImage()">&#10095;</span>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
